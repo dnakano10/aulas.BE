@@ -16,3 +16,5 @@ if(n2===0){
 } else {
     console.log("divisão: ", n1, " / ", n2, " = ", divs);
 }
+
+//vou arrumar dps
