@@ -3,7 +3,7 @@ const input = require('readline-sync');
 
 let soma = 0;
 for(let i=0; i<5; i++) {
-    let n = input.questionInt("Digite a ", i+1, " nota: ");
+    let n = input.questionInt("Digite a " + (i+1) + " nota: ");
     soma = soma + n;
 }
 
